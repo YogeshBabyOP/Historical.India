@@ -1,0 +1,54 @@
+h1 {
+    text-align:  center;
+    font-size: 60px;
+    text-shadow: 0px 0px 5px black, 0px 0px 5px gray;
+}
+h2 {
+    text-align: center;
+}
+ * {
+    box-sizing: border-box;
+ }
+
+ body {
+    background: linear-gradient(150deg, orange,  rgb(140, 174, 233), green);
+ }
+
+#col {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#row::after {
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+#col:hover {
+    transition: 0.5s;
+    color:whitesmoke;
+}
+footer {
+    margin-left: 20px;
+    text-align: left;
+}
+
+#footerid {
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+#twitt {
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#twitt:hover {
+    transition: 0.3s;
+    color:whitesmoke;
+}
